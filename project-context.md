@@ -45,4 +45,9 @@
 - Both Store controls are disabled and say `Coming soon` because Play and ASC approval/publication remain unverified.
 - `npm run build`, `npm run check` and `git diff --check` pass locally. The checker covered 21 generated HTML files, required metadata and local asset/page references.
 - Local base-path preview returned HTTP 200 at `/uk-transport-manager-cpc-prep-web/en/`.
-- GitHub repository, workflow run and production QA are pending at this checkpoint.
+- Public repository created: `https://github.com/MCYJ/uk-transport-manager-cpc-prep-web`.
+- GitHub Pages was enabled with `build_type=workflow`; Actions run `35347371314` completed successfully.
+- Production URL: `https://mcyj.github.io/uk-transport-manager-cpc-prep-web/`.
+- Production HTTP QA passed for the root redirect, English landing, all 12 guides, FAQ, Privacy, Terms, Support, Contact, CSS, app icon, sitemap and robots. All 19 sitemap URLs returned HTTP 200 and an unknown path returned the custom HTTP 404.
+- Desktop and 390×844 mobile visual checks passed: no visible clipping or horizontal overflow, navigation remained usable, hero copy and disabled Store states were readable, and guide cards stacked correctly.
+- GA4 and Search Console are not configured because no real Measurement ID or Search Console ownership verification was available. No placeholder values were added.
